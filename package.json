@@ -1,0 +1,36 @@
+{
+  "name": "amazon_test",
+  "version": "1.0.0",
+  "description": "amazon automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adebiyijohnson/AmazonTest.git"
+  },
+  "author": "Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adebiyijohnson/AmazonTest/issues"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/e2e/step_definitions/*.{js,ts}"
+  },
+    "nonGlobalStepDefinitions": false,
+    "cucumberJson": {
+        "generate": "true",
+        "outputFolder": "cypress/cucumber-json",
+        "filePrefix": "",
+        "fileSuffix": ".cucumber"
+    },
+  "homepage": "https://github.com/Adebiyijohnson/AmazonTest#readme",
+  "devDependencies": {
+    "cypress": "^13.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "typescript": "^5.4.3"
+  }
+ 
+}
+
