@@ -34,5 +34,8 @@ export class HomePage {
     static clickProductTitle() {
       cy.get('#title > #productTitle').click();
     }
+    static aboutThisPage() {
+        cy.contains('About this item');
+    }
   }
   

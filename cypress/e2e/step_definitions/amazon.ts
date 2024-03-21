@@ -42,5 +42,5 @@ When('I click on the product title', () => {
 });
 
 Then('I should see the product details page', () => {
-  // Add assertion to verify the product details page
+  ProductPage.aboutThisPage().should('be.visible');
 });
